@@ -1,9 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=IBM+Plex+Mono&family=Permanent+Marker&family=Titan+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+    <title>Movie It</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <label for="logo" id="logo">Movie It</label>
+      </nav>
+      <div id="main-container">
+        <!--Movie List on the left-->
         <div id="movie-list">
           <label>New Movies & Shows</label>
           <ul>
@@ -17,6 +33,7 @@
           </ul>
         </div>
 
+        <!-- Movie Poster and Reviews -->
         <div id="reviews">
           <img
             src="/assets/images/placeholderimg.jpeg"
@@ -69,3 +86,8 @@
             <input type="submit" id="suggest-sub" />
           </form>
         </div>
+      </div>
+    </main>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
