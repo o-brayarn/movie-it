@@ -72,3 +72,82 @@ label {
     text-align: center;
     -ms-text-size-adjust: auto;
 }
+
+/*The Review and Poster Section*/
+#reviews {
+    display: block;
+    margin: 0% 10%;
+}
+
+#reviews img {
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#reviews p {
+    width: 70%;
+    margin-left: 14%;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#review-list {
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    width: 76%;
+    margin-left: 11%;
+    margin-bottom: 3%;
+}
+
+#review-list ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#review-list ul li {
+    padding: 5px;
+}
+
+#reviews form label {
+    font-size: 1.2rem;
+    /* text-align: center; */
+}
+
+#review-input {
+    width: 70%;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-color: #c1c8bf;
+}
+
+#review-submit {
+    margin-left: 50%;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    background-color: #c1c8bf;
+    border-radius: 10px;
+    width: 14%;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+#review-submit:hover {
+    transform: scale(1.4);
+    color: rgb(103, 204, 204);
+    background-color: black;
+}
+
