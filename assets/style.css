@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body,
+html {
+    /* background-color: rgba(0,0,0,0.2); */
+    background-color: #c1c8bf;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+main {
+    /* margin: 0% 10%; */
+    padding: 0% 4%;
+    background-color: #c1c8bf;
+    height: 100vh;
+}
