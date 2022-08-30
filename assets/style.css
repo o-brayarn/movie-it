@@ -23,3 +23,18 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+
+nav {
+    padding: 2rem 0rem;
+}
+
+nav #logo {
+    color: black;
+    font-size: 4rem;
+    font-family: 'Titan One', cursive;
+}
+
+label {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
