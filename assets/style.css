@@ -151,3 +151,36 @@ label {
     background-color: black;
 }
 
+/*Movie Suggestion section*/
+#suggestions {
+    width: 33%;
+    height: 70vh;
+}
+
+#suggestions form input#movies {
+    width: 80%;
+    padding: 1rem;
+    margin: 0.2rem;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-color: #c1c8bf;
+}
+
+#suggestions form input#suggest-sub {
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    background-color: #c1c8bf;
+    border-radius: 10px;
+    width: 20%;
+    border: 2px solid gray;
+    margin-left: 30%;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+#suggestions form input#suggest-sub:hover {
+    transform: scale(1.4);
+    color: rgb(103, 204, 204);
+    background-color: black;
+}
