@@ -6,30 +6,30 @@
 
 body,
 html {
-    /* background-color: rgba(0,0,0,0.2); */
-    background-color: #c1c8bf;
     font-family: 'IBM Plex Mono', monospace;
+    background-image: url('/spyracers.png');
 }
 
 main {
     /* margin: 0% 10%; */
-    padding: 0% 4%;
-    background-color: #c1c8bf;
+    padding: 0% 2%;
+    /* background-color: #c1c8bf; */
     height: 100vh;
+    /* background-image: url('/spyracers.png'); */
+    background-repeat: none;
+    background-size: cover;
+    color:rgb(90, 209, 34);
 }
 
 #main-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-nav {
-    padding: 2rem 0rem;
+    height: 100vh;
 }
 
 nav #logo {
-    color: black;
+    color:rgb(90, 209, 34);
     font-size: 4rem;
     font-family: 'Titan One', cursive;
 }
@@ -41,12 +41,12 @@ label {
 
 /*New Movies List section*/
 #movie-list {
-    border: 2px solid grey;
+    border: 2px solid goldenrod;
     border-radius: 30px;
     width: 25rem;
     height: 70vh;
     padding: 1rem 2rem;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px goldenrod;
 }
 
 #movie-list ul {
@@ -64,7 +64,8 @@ label {
 
 #movie-list ul li:hover {
     transform: scale(1.3);
-    color: blue;
+    color: rgb(103, 204, 204);
+    /* background-color: black; */
 }
 
 #movie-list label {
@@ -77,15 +78,22 @@ label {
 #reviews {
     display: block;
     margin: 0% 10%;
+    width: 50%;
 }
-
+#reviews h1{
+    display: block;
+    position: relative;
+    margin-left: 30%;
+    font-family: 'Fredoka One', cursive;
+}
 #reviews img {
     display: block;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     width: 15rem;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px goldenrod;
+    border-radius: 14px;
 }
 
 #reviews p {
@@ -94,20 +102,27 @@ label {
     text-align: center;
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 2px solid gray;
+    border: 2px solid goldenrod;
     border-radius: 10px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 5px goldenrod;
+    background-color: black;
+    /* color: white; */
 
 }
 
 #review-list {
     text-align: center;
-    border: 2px solid gray;
+    border: 2px solid goldenrod;
     border-radius: 20px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     width: 76%;
     margin-left: 11%;
     margin-bottom: 3%;
+    cursor: pointer;
+}
+#review-list:hover{
+    box-shadow: 0 4px 4px rgb(146, 112, 27);
+    transform: scale(1.1);
+    transition: all 0.8s ease-in-out;
 }
 
 #review-list ul {
@@ -117,6 +132,7 @@ label {
 
 #review-list ul li {
     padding: 5px;
+    text-align: justify;
 }
 
 #reviews form label {
@@ -128,8 +144,9 @@ label {
     width: 70%;
     padding: 2rem;
     border-radius: 20px;
-    border: 2px solid gray;
-    background-color: #c1c8bf;
+    border: 2px solid goldenrod;
+    background-color: navajowhite;
+    font-family: 'IBM Plex Mono', monospace;;
 }
 
 #review-submit {
@@ -137,12 +154,14 @@ label {
     margin-top: 1rem;
     font-size: 20px;
     font-family: 'Fredoka One', cursive;
-    background-color: #c1c8bf;
+    background-color: black;
     border-radius: 10px;
     width: 14%;
-    border: 2px solid gray;
+    border: 2px solid gold;
     cursor: pointer;
     transition: all 0.8s ease;
+    color: rgb(90, 209, 34);
+    opacity: 0.8;
 }
 
 #review-submit:hover {
@@ -162,17 +181,19 @@ label {
     padding: 1rem;
     margin: 0.2rem;
     border-radius: 20px;
-    border: 2px solid gray;
-    background-color: #c1c8bf;
+    border: 2px solid gold;
+    background-color: navajowhite;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 #suggestions form input#suggest-sub {
     font-size: 20px;
     font-family: 'Fredoka One', cursive;
-    background-color: #c1c8bf;
+    background-color: black;
+    color: rgb(90, 209, 34);
     border-radius: 10px;
     width: 20%;
-    border: 2px solid gray;
+    border: 2px solid goldenrod;
     margin-left: 30%;
     margin-top: 0.5rem;
     cursor: pointer;
@@ -180,7 +201,7 @@ label {
 }
 
 #suggestions form input#suggest-sub:hover {
-    transform: scale(1.4);
+    transform: scale(1.3);
     color: rgb(103, 204, 204);
     background-color: black;
 }
