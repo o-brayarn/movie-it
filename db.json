@@ -1,16 +1,89 @@
 {
-    "toys": [
-      {
-        "id": 1,
-        "name": "Woody",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "likes": 8
-      },
-      {
-        "id": 2,
-        "name": "Buzz Lightyear",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "likes": 14
-      }
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avatar:The Last Airbender",
+      "image": "https://miscrave.com/wp-content/uploads/2020/02/13_1024x768-700x525.jpg",
+      "description": "Aang, a 12-year-old boy, must put his childhood aside to impede chaos that the Fire Nation is creating. He embarks on a quest to restore harmony in the nations of Water, Earth and Air.",
+      "reviews": [
+        "Wow this is one of the best movies ever produced!",
+        "It was an objectively terrible movie, horribly acted, boring, implausible.",
+        "It's bright and colourful and funny, with an involving storyline and a devoted fanbase that carried it over to a whole sequel series.",
+        "There's some fighting and violence, but it's not bloody or even particularly scary. Love it!"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Men in Black",
+      "image": "https://flxt.tmsimg.com/assets/p19526_p_v10_av.jpg",
+      "description": "A brash New York City cop partners with a no-nonsense government agent on a top-secret team that monitors extraterrestrials on Earth.",
+      "reviews": [
+        "I don't know, man. Is this a movie or comedy?",
+        "Definitely worth the time and dime. Can't wait to watch what they have lined up for us.",
+        "Perfect in a light-hearted way. Whoever made this movie is a genius.",
+        "Will Smith was in his element here. Just be careful he don't slap you from the screen. hahaha..."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Game Of Thrones",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg",
+      "description": "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.",
+      "reviews": [
+        "This easily goes down in history as the best TV show ever made.",
+        "Can't argue with the numbers. GOT is the GOAT. The A moves in silence.",
+        "This is a 10. Nobody doesn't like GOT. This show takes the throne in the battle of TV show thrones.",
+        "I love me some actions and mythics. Got 'em all here. What else could someone ever want in life?"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Better Call Saul",
+      "image": "https://flxt.tmsimg.com/assets/p13837077_b_v8_aa.jpg",
+      "description": "Ex-con artist Jimmy McGill turns into a small-time attorney and goes through a series of trials and tragedies, as he transforms into his alter ego Saul Goodman, a morally challenged criminal lawyer.",
+      "reviews": [
+        "How am I just learning of this show? How? Where have you been all my life?",
+        "This is the it. It. It. It. How many ITs do you want?",
+        "It's a'ight. Don't know what all the hype is about though! Smh...",
+        "If only this was real life."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Breaking Bad",
+      "image": "https://preview.redd.it/q53e4iwud0971.jpg?auto=webp&s=27b60d4df59c9a496db0e38297b55d3a04649e97",
+      "description": "Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.",
+      "reviews": [
+        "Just as bad as the name. Wouldn't recommend it. Such a waste of time!",
+        "I don't care what you bring me, red, blue, white...This is the shit!",
+        "Just an overrated movie. If I could turn back time, I could go back and steal the production money so that it wouldn't exist!",
+        "There's some fighting and violence, but it's not bloody or even particularly scary. Love it!"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Assassin's Creed",
+      "image": "https://cdn1.epicgames.com/epic/offer/ACRG_Store_Portrait_1280x1420-1280x1420-5cba5dab889312a3ee8e0cb414f1ebaa.png",
+      "description": "With the help of technology, Callum learns that he is a descendant of a dangerous society. He travels back in time to learn about his ancestors and acquire skills to defeat an evil organisation.",
+      "reviews": [
+        "You can't hate on this movie.",
+        "Not far from the video game. I love it.",
+        "I wanna watch it. I wanna live it. I wanna love it so bad that it hurts.",
+        "I've watched this over and over again."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Fast & Furious: Spy Racers",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTdmYjFiZTYtZGZlZi00YTBjLWIxYmItYTQ5OWNiZmM5MzczXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "description": "Adventures abound as a group of teenagers infiltrates an elite racing league controlled by a nefarious organization that is bent on world domination.",
+      "reviews": [
+        "I think its funny and exciting i love tyler posey being the main voice over.  ",
+        "It gives me a nostalgic memory of tw where tyler is the serious person and his friend stiles is sarcastically funny.",
+        "i would say its one of the best animated tv shows ever made",
+        "Easily my top two favourites."
+      ]
+    }
+  ]
+}
+
