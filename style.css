@@ -205,3 +205,7 @@ label {
     color: rgb(103, 204, 204);
     background-color: black;
 }
+
+#error{
+    background-color: red;
+}

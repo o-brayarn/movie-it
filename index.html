@@ -35,7 +35,7 @@
 
         <!-- Movie Poster and Reviews -->
         <div id="reviews">
-          <h1>Arrow</h1>
+          <h1 id="movie-title">Arrow</h1>
           <img
             src="https://m.media-amazon.com/images/M/MV5BMTI0NTMwMDgtYTMzZC00YmJhLTg4NzMtMTc1NjI4MWY4NmQ4XkEyXkFqcGdeQXVyNTY3MTYzOTA@._V1_FMjpg_UX1000_.jpg"
             alt="Movie Poster Goes in Here"
@@ -60,7 +60,7 @@
               </li>
             </ul>
           </div>
-          <form action="submit">
+          <form id="review-form">
             <label>Leave a Review:</label>
             <input
               type="text"
@@ -76,11 +76,12 @@
         <!-- Movie Suggestions -->
         <div id="suggestions">
           <label>Suggest a New Movie</label>
-          <form action="submit">
-            <input type="text" placeholder="Movie Title" id="movies" /> <br />
+          <form action="submit" id="suggest-form">
+            <input type="text" placeholder="Movie Title:" id="movies" /> <br />
+            <input type="text" placeholder="Poster URL:" id="movies" /> <br />
             <input
               type="text"
-              placeholder="Movie Description and genre"
+              placeholder="Movie Description & genre:"
               id="movies"
             />
             <br />
