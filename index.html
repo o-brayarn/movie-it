@@ -67,7 +67,7 @@
               name="leave-review"
               id="review-input"
               placeholder="Have you watched this movie? Leave your thoughts!"
-            />
+           required />
             <br />
             <input type="submit" id="review-submit" />
           </form>
@@ -76,22 +76,22 @@
         <!-- Movie Suggestions -->
         <div id="suggestions">
           <label>Suggest a New Movie</label>
-          <form action="submit" id="suggest-form">
-            <input type="text" placeholder="Movie Title:" id="movies" /> <br />
-            <input type="text" placeholder="Poster URL:" id="movies" /> <br />
+          <form id="suggest-form">
+            <input type="text" placeholder="Movie Title:" id="movie-name" required /> <br />
+            <input type="text" placeholder="Poster URL:" id="movie-src" required/> <br />
             <input
               type="text"
               placeholder="Movie Description & genre:"
-              id="movies"
-            />
+              id="movie-des"
+          required />
             <br />
             <input
               type="text"
               placeholder="What's interesting about the movie?"
-              id="movies"
-            />
+              id="movie-rev"
+            required />
             <br />
-            <input type="submit" id="suggest-sub" />
+            <input type="submit" id="suggest-sub" value="Submit"/>
           </form>
         </div>
       </div>
