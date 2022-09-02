@@ -83,6 +83,27 @@
         "i would say its one of the best animated tv shows ever made",
         "Easily my top two favourites."
       ]
+    },
+    {
+      "title": "",
+      "image": "",
+      "description": "",
+      "reviews": "",
+      "id": 8
+    },
+    {
+      "title": "Luca",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_.jpg",
+      "description": "Set in a beautiful seaside town on the Italian Riviera, the original animated feature is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides. Luca shares these adventures with his newfound best friend, but all the fun is threatened by a deeply held secret: he is a sea monster from another world just below the water's surface.",
+      "reviews": "You gone love it, man.",
+      "id": 9
+    },
+    {
+      "title": "",
+      "image": "",
+      "description": "",
+      "reviews": "",
+      "id": 10
     }
   ]
 }
