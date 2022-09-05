@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:3000/movies';
+const apiUrl = 'https://cryptic-journey-61271.herokuapp.com/movies';
 
 function getMovieDetails(id) {
   fetch(`${apiUrl}/${id}`)

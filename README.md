@@ -4,11 +4,11 @@
 
 # Table of Content
 
-- [Description](##Description)
-- [Technology Used](##Technology-Used)
-- [Licenses](##Licenses)
-- [Known Bugs](##Known-Bugs)
-- [References](##References)
+- [Description](#Description)
+- [Technology Used](#Technology-Used)
+- [Licenses](#Licenses)
+- [Known Bugs](#Known-Bugs)
+- [References](#References)
 - [Author Info & Contacts](##Author-Info)
 
 ## Description
